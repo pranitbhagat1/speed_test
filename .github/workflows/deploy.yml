@@ -28,6 +28,4 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: bluefireteam/flutter-gh-pages@v9
-        with:
-          baseHref: /speed_test/
           # ↑ Same as above — must match your repo name exactly
